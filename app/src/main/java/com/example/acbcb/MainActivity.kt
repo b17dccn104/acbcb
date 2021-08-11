@@ -6,9 +6,11 @@ import com.example.acbcb.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 private lateinit var binding: ActivityMainBinding
+private var a = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
     }
 }
